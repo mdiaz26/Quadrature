@@ -715,6 +715,7 @@ input, select, textarea {
 		.image.modal img {
 			display: block;
 			max-width: 100%;
+			/* width: 500px; */
 			max-height: 20rem;
 			margin-left: auto;
 			margin-right: auto;
@@ -772,6 +773,12 @@ input, select, textarea {
 					border-top: 0;
 					padding-top: 0;
 				}
+
+		ul.partners {
+			list-style: none;
+			padding-left: 0;
+		}
+
 
 	dl {
 		margin: 0 0 2rem 0;
