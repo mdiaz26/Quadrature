@@ -1345,6 +1345,46 @@ input, select, textarea {
 		.tile-list nav.use-middle ul li.is-middle {
 			border-left: 0;
 		}
+
+		@media screen and (max-width: 480px) {
+
+			.tile-list {
+				padding: 1.5rem 0;
+			}
+
+				.tile-list .content .inner {
+					padding: 2.5rem 0;
+				}
+
+				.tile-list nav ul {
+					-moz-flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					min-width: 10rem;
+					max-width: 100%;
+				}
+
+				.tile-list nav ul li {
+					border-left: 0;
+					border-top: solid 1px #ffffff;
+				}
+
+					.tile-list nav ul li:first-child {
+						border-top: 0;
+					}
+
+					.tile-list nav ul li a {
+						height: 3rem;
+						line-height: 3rem;
+						min-width: 0;
+						width: 100%;
+					}
+
+			.tile-list nav.use-middle:after {
+				display: none;
+			}
+		}
 		
 /* Header */
 
