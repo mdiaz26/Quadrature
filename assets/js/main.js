@@ -13,6 +13,7 @@
 		$footer = $('#footer'),
 		$main = $('#main'),
 		$main_articles = $main.children('article');
+		$return_to_site = document.getElementById("return-to-site");
 
 	// Breakpoints.
 		breakpoints({
@@ -304,6 +305,12 @@
 					});
 
 			});
+
+		// Return to site.
+		// I added this custom JS to build a button that could re-direct users to the homepage after they submitted a form.
+		$return_to_site.addEventListener('click', function() {
+			location.hash = '';
+		});
 
 		// Events.
 			$body.on('click', function(event) {
