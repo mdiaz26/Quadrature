@@ -1501,6 +1501,7 @@ input, select, textarea {
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
+				overflow: ;
 			}
 
 				#header nav ul li:first-child {
