@@ -1501,7 +1501,7 @@ input, select, textarea {
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
-				overflow: ;
+				overflow: hidden;
 			}
 
 				#header nav ul li:first-child {
@@ -1815,7 +1815,6 @@ input, select, textarea {
 /* return to site button */
 #return-to-site {
 	display: inline-block;
-	/* width: 35%; */
 	height: 2.75rem;
 	line-height: 2.75rem;
 	padding: 0 1rem 0 1rem;
@@ -1831,8 +1830,6 @@ input, select, textarea {
 	font-family: "Source Sans Pro", sans-serif;
 }
 
-/* svg */
-.svg {
-	overflow: visible;
-
+#wrapper #main #thank-you {
+	opacity: 1;
 }
