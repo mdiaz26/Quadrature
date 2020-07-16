@@ -1422,16 +1422,16 @@ input, select, textarea {
 			margin-top: 3.5rem;
 		}
 
-			#header > *:before {
+			/* #header > *:before {
 				content: '';
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
-				left: calc(50% - 1px);
+				left: calc(50% - 15px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
-			}
+			} */
 
 		#header > :first-child {
 			margin-top: 0;
@@ -1832,4 +1832,19 @@ input, select, textarea {
 
 #wrapper #main #thank-you {
 	opacity: 1;
+}
+
+/* SVG */
+
+.svg {
+	width: 80%;
+	display: block;
+	margin-left: 3.5rem;
+	margin-right: auto;
+}
+
+/* Mission text justified */
+
+#mission p {
+	text-align: justify;
 }
